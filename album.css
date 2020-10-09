@@ -1,0 +1,88 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 0.5);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 0.5);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.thumbnails {
+  text-align: center;
+}
+
+.thumbnails .thumbnail {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.icon {
+  flex: 0 0 auto;
+  margin: 40px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  width: 70px;
+  height: 70px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-menu-right {
+  float: right !important;
+  right: 0;
+  left: auto;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.pb-5, .py-5 {
+  padding-bottom: 1rem!important;
+  padding-top: 0px!important;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 30px;
+  line-height: 30px;
+}
